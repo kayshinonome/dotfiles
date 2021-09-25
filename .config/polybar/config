@@ -1,0 +1,26 @@
+[bar/mybar]
+monitor = LVDS1
+modules-right = battery
+modules-center = date
+modules-left = xwindow
+tray-position = right
+height = 27
+width = 100%
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+time = %H:%M
+date-alt = %A, %d %B %Y
+time-alt = %H:%M:%S
+label = "%date% - %time%"
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = AC
+poll-interval = 5
+
+[module/xwindow]
+type = internal/xwindow
