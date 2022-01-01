@@ -1,5 +1,4 @@
 [bar/mybar]
-monitor = LVDS1
 modules-right = battery
 modules-center = date
 modules-left = xwindow
