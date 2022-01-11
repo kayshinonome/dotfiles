@@ -2,11 +2,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'glepnir/dashboard-nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'LeonardSSH/coc-discord-rpc'
-Plug 'clangd/coc-clangd'
 Plug 'rafcamlet/coc-nvim-lua'
 Plug 'neoclide/coc-tabnine'
 Plug 'airblade/vim-gitgutter'
-Plug 'josa42/coc-sh'
 Plug 'preservim/nerdtree'
 call plug#end()
 
